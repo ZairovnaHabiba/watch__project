@@ -167,9 +167,15 @@ body {
     transition: opacity .5s ease;
 }
 
-.header_hamburger {
+#hamburger {
     display: none;
 }
+
+.header_hamburger {
+    display: none;
+    
+}
+
 
 .header__hamburger-menu {
     position: relative;
@@ -295,6 +301,8 @@ body {
     .hamburger_outer {
         position: relative;
     }
+
+
 
     #hamburger:checked~.header__hamburger-menu .header__hamburger-top {
         transform: rotate(405deg);
